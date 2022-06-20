@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Ejercicios-4-5-6" />
+        <module name="Ejercicios-7-8-9" />
+        <module name="Ejercicios-10-11-12" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Ejercicios-10-11-12" options="-parameters" />
+      <module name="Ejercicios-4-5-6" options="-parameters" />
+      <module name="Ejercicios-7-8-9" options="-parameters" />
+    </option>
+  </component>
+</project>
